@@ -227,8 +227,8 @@ const INCOME_CATS=[
  {id:'stipendio',name:'Stipendio',e:'💼',c:'#0fb67f'},
  {id:'altre_entrate',name:'Altre entrate',e:'➕',c:'#2bb5a0'}];
 const PALETTE=['#5c7cfa','#ae3ec9','#f76707','#2f9e44','#d6336c','#1098ad','#74b816'];
-const expenseCats=()=>BASE_CATS.slice(0,-1).concat(db.customCats,[BASE_CATS[BASE_CATS.length-1]]);
-const catOf=id=>[].concat(BASE_CATS,db.customCats,[INV],INCOME_CATS).find(c=>c.id===id)||BASE_CATS[BASE_CATS.length-1];
+let expenseCats=()=>BASE_CATS.slice(0,-1).concat(db.customCats,[BASE_CATS[BASE_CATS.length-1]]);
+let catOf=id=>[].concat(BASE_CATS,db.customCats,[INV],INCOME_CATS).find(c=>c.id===id)||BASE_CATS[BASE_CATS.length-1];
 const tint=c=>c+'26';
 
 /* ============ dati ============ */
@@ -657,6 +657,9 @@ if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.se
 document.addEventListener('visibilitychange',()=>{if(!document.hidden&&!F){const c=curYM();if(ui.tab==='month'&&ui.ym===c)render()}});
 </script>
 <script src="finance-core.js"></script>
+<script src="personal-core.js"></script>
 <script src="finance-ui.js"></script>
+<script src="personal-ui.js"></script>
+<script src="dragon.js"></script>
 </body>
 </html>

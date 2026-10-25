@@ -1,74 +1,69 @@
-SPESE 2.0 — BILANCIO E PATRIMONIO
+SPESE 3.0 — PERSONALIZZAZIONE E DRAGO
 
-PRIMA DELL’AGGIORNAMENTO
-Esporta il backup dalla versione attuale. Non cancellare i dati del browser
-e non disinstallare l’APK precedente.
+PRIMA DI AGGIORNARE
+Esporta un backup dalla versione che usi. Non cancellare dati del browser
+e non disinstallare l’APK con i tuoi movimenti.
 
-VERSIONE SITO / PC
-Estrai questo ZIP. Su PC puoi aprire index.html con il browser, senza installazioni.
-Per aggiornare GitHub Pages carica TUTTI i file di questa cartella nella stessa
-posizione del sito precedente, sovrascrivendo quelli omonimi. Non caricare backup
-personali, chiavi o l’archivio privato di firma.
-Questo ZIP non modifica da solo il sito online.
-Dopo la pubblicazione chiudi tutte le schede e l’app Spese e riaprila per consentire
-l’attivazione della nuova versione offline. Se serve ricarica la pagina. Non usare
-“cancella dati del sito”: elimina anche le spese.
-I dati si mantengono nello stesso browser e dominio; passando dal sito a un file
-locale, a un altro dispositivo o all’APK, importa il backup.
+NOVITÀ
+Altro > Personalizza contiene:
+- Categorie: modifica anche quelle predefinite, icona, colore, tipo, ordine.
+- Gruppi del bilancio: nomi, aggiunte, ruolo nel calcolo e ordine nello stesso ruolo.
+- Righe del bilancio: nomi, aggiunte, gruppo, ordine, archiviazione.
+- Attività e passività: nomi, nuove voci, ordine, archiviazione e trasferimento importi.
+- Obiettivi dei fondi: nomi, contenitore di riferimento e mesi predefiniti.
+- Nome, testi e aspetto: titolo, sottotitolo, nomi colonne e totali, righe zero.
+- Drago a sorpresa: attivo/disattivo, frequenza e prova immediata.
 
-VERSIONE ANDROID
-Installa Spese-2.0.apk come aggiornamento sopra la 1.0, senza disinstallare.
-Pacchetto e firma rimangono gli stessi; Android deve proporre l’aggiornamento.
-Il codice versione passa da 1 a 2. Se Android rifiuta, non eliminare l’app con i dati:
-conserva prima un backup e segnala l’errore.
-APK firmato e verificato staticamente; non provato su un telefono o emulatore Android.
+Le formule conservano ruoli espliciti: entrate, spese necessarie, trasferimenti
+agli investimenti e discrezionali. I gruppi seguono quest’ordine di calcolo, ma
+puoi crearne più d’uno per ruolo e riordinarli. I debiti vengono sottratti alle
+attività. Per evitare strutture inutilizzabili resta necessaria almeno una
+categoria e una riga visibile per entrate, spese e investimenti.
 
-COME FUNZIONA
-Bilancio: entrate meno spese fisse necessarie meno variabili necessarie = reddito
-residuo; poi PAC e spese discrezionali = risultato mensile.
-“Pianifica” imposta i valori attesi per il singolo mese. Il piano è distinto dai
-movimenti: modificarlo non registra una spesa.
-“Registrato” include movimenti singoli e ricorrenze, con costi annuali /12.
-Quindi non è il saldo del conto e non rappresenta la cassa effettiva del mese.
-Non duplicare una ricorrenza inserendola anche come movimento singolo.
-Tocca una riga del bilancio per vedere le voci che la compongono.
-I vecchi movimenti sono conservati e classificati automaticamente in base a
-categoria e descrizione. Controlla le assegnazioni: puoi cambiare “Voce del
-bilancio” nel modulo di modifica senza perdere categoria e descrizione.
-Mutuo è riconosciuto dal nome; una vecchia spesa generica “Casa e mutuo” con una
-descrizione diversa potrebbe finire tra altre spese necessarie e va riclassificata.
-Le nuove entrate e le spese fisse si possono impostare come ricorrenze mensili.
+Archiviare nasconde la voce dai nuovi inserimenti. Le voci con importi già
+presenti restano visibili nei totali per non nascondere soldi.
+Per eliminare una voce con dati, scegli una destinazione compatibile: gli importi
+vengono sommati e i movimenti riclassificati in tutti i mesi. Non si cancellano
+importi. Le modifiche al ruolo nel bilancio si riflettono anche nello storico.
+Esporta un backup prima delle modifiche strutturali per poter ripristinare.
+I costi annuali continuano a essere normalizzati /12: non sono il saldo del conto.
 
-PATRIMONIO
-Salva una situazione a fine mese con liquidità, fondo emergenze, investimenti,
-auto, casa, altre attività, mutuo residuo e altri debiti. Patrimonio netto =
-attività meno debiti. Inserisci ogni importo una sola volta, in un solo contenitore.
-Il residuo mutuo è il capitale da restituire, non la somma delle rate future.
-I target di 4 mesi di spese per liquidità e 12 per emergenze sono modificabili;
-sono obiettivi scelti dall’utente, non una raccomandazione dell’app.
-La base di spesa è inserita da te; al primo inserimento propone le necessarie
-registrate nel mese e va verificata per renderla rappresentativa.
-“Parti dai valori precedenti” crea una bozza, diminuendo l’auto della svalutazione
-mensile impostata moltiplicata per i mesi trascorsi. Devi comunque aggiornare tutti
-i saldi e salvare. Non aggiorna automaticamente conti, investimenti o mutuo.
-Il valore dell’auto inserito è già attuale: non viene svalutato di nuovo quando salvi.
-Nel bilancio puoi inserire la quota capitale della rata e la svalutazione auto del
-singolo mese. Le situazioni patrimoniali non cambiano automaticamente.
-La variazione teorica mostrata è: risultato dopo PAC + PAC + capitale rimborsato
-− svalutazione auto. Il PAC viene riaggiunto perché è un trasferimento verso
-investimenti, non un costo di consumo. Il dato effettivo è il confronto tra le
-situazioni mensili inserite. Rendimenti, rivalutazioni, compravendite e differenze
-tra cassa e quote annuali possono creare scostamenti.
-Un risultato dopo PAC negativo non implica da solo un calo del patrimonio netto.
+DRAGO
+Probabilità predefinita: 1 su 50 (2%) a ogni nuova sessione di apertura,
+al massimo una comparsa automatica per sessione. È casuale: non significa
+esattamente la cinquantesima apertura. Il drago vola e mostra il testo:
+no oggi non pensare ai soldi
+Puoi provarlo da Altro > Drago a sorpresa > Fammi vedere il drago.
+Non copre i moduli mentre stai inserendo dati e non impedisce l’uso dell’app.
+Con Riduci movimento del dispositivo compare una versione ferma.
+Le impostazioni del drago fanno parte del backup.
 
-PRIVACY E BACKUP
-Nessun database remoto o sincronizzazione; ogni dispositivo ha dati propri.
-Il backup JSON include movimenti, ricorrenze, categorie, piani e patrimonio.
-I backup precedenti del sito (formato tx/fixed) sono importabili; il ripristino
-sostituisce tutti i dati dopo conferma. I nuovi campi non sono utilizzabili nella
-vecchia app: dopo l’aggiornamento conserva il nuovo backup separato da quello vecchio.
+AGGIORNAMENTO DEL SITO
+Estrai lo ZIP e carica TUTTI i file nella stessa cartella GitHub del sito che usi,
+sovrascrivendo quelli omonimi. Lo ZIP non aggiorna da solo il sito online.
+Chiudi tutte le schede/app Spese e riapri per attivare la nuova cache offline.
+Non cancellare i dati del sito. Sul PC puoi anche aprire index.html nella cartella
+estratta, sempre usando lo stesso file e browser.
+Se cambi repository su GitHub ma rimane lo stesso dominio, l’archivio del browser
+può essere condiviso con le altre versioni Spese su quel dominio; non usare
+contemporaneamente versioni vecchie e nuove sugli stessi dati.
 
-CONTROLLI
-Verificati: formule, classificazione, quote annuali, PAC senza duplicazioni,
-patrimonio netto, validazione backup v1/v2, salvataggio piano, movimenti e ricorrenze,
-inserimento patrimonio e persistenza del browser.
+ANDROID
+Spese-3.0.apk ha lo stesso pacchetto e la stessa firma di 1.0 e 2.0, codice versione 3.
+Installalo come aggiornamento senza disinstallare. Richiede Android 8 o successivo.
+La protezione avanzata del dispositivo può comunque bloccare installazioni e
+aggiornamenti da fonti sconosciute: questo file non rimuove tale protezione.
+In quel caso usa la versione web dal browser. Non sono richieste chiavi API.
+APK firmato e verificato staticamente, non provato su telefono o emulatore Android.
+
+BACKUP
+I backup 1.0/2.0 del sito (tx/fixed) sono importabili; i backup 3.0 comprendono
+struttura personalizzata, piani, patrimonio, movimenti, ricorrenze e drago.
+Non usare il nuovo backup nelle vecchie versioni: non riconoscono le personalizzazioni.
+Conserva una copia del vecchio backup prima di passare a 3.0.
+Ogni dispositivo ha il proprio archivio: niente sincronizzazione automatica.
+Nessun dato personale è incluso in questi file dell’app.
+
+ARCHIVIO PRIVATO
+Il file sorgenti-e-firma contiene la chiave per i futuri aggiornamenti e la password.
+Non pubblicarlo su GitHub e non inviarlo agli altri utenti; per loro basta l’APK.
