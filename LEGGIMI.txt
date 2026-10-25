@@ -1,10 +1,26 @@
-SPESE 3.0 — PERSONALIZZAZIONE E DRAGO
+SPESE 3.1 — DASHBOARD, PERSONALIZZAZIONE E DRAGO
 
 PRIMA DI AGGIORNARE
 Esporta un backup dalla versione che usi. Non cancellare dati del browser
 e non disinstallare l’APK con i tuoi movimenti.
 
-NOVITÀ
+NOVITÀ DASHBOARD
+Nuova scheda Dashboard nella barra in basso. Scegli gli ultimi 6, 12 o 24 mesi,
+con termine nel mese selezionato con le frecce.
+Spese per mese: grafico a barre impilate con fisse, variabili necessarie e
+discrezionali; tabella apribile con tutti gli importi e link al dettaglio mensile.
+Variabili totali = variabili necessarie + discrezionali. Gli investimenti/PAC
+sono separati dalle spese. Le classificazioni seguono i ruoli dei tuoi gruppi,
+non soltanto la frequenza del movimento (un abbonamento discrezionale resta
+discrezionale finché non lo sposti in un gruppo con un altro ruolo).
+Riepilogo periodo: totale spese, media sui mesi mostrati e composizione.
+Patrimonio: solo le situazioni che hai salvato. I mesi mancanti non diventano
+zero e interrompono la linea. La tabella mostra attività, debiti, netto e delta
+rispetto al mese precedente solo quando entrambi i mesi sono presenti.
+Il grafico del patrimonio compare anche nella scheda Patrimonio.
+Con un solo mese salvato vedrai un punto, non ancora una curva.
+
+PERSONALIZZAZIONE
 Altro > Personalizza contiene:
 - Categorie: modifica anche quelle predefinite, icona, colore, tipo, ordine.
 - Gruppi del bilancio: nomi, aggiunte, ruolo nel calcolo e ordine nello stesso ruolo.
@@ -49,7 +65,7 @@ può essere condiviso con le altre versioni Spese su quel dominio; non usare
 contemporaneamente versioni vecchie e nuove sugli stessi dati.
 
 ANDROID
-Spese-3.0.apk ha lo stesso pacchetto e la stessa firma di 1.0 e 2.0, codice versione 3.
+Spese-3.1.apk ha lo stesso pacchetto e la stessa firma di 1.0 e 2.0, codice versione 4.
 Installalo come aggiornamento senza disinstallare. Richiede Android 8 o successivo.
 La protezione avanzata del dispositivo può comunque bloccare installazioni e
 aggiornamenti da fonti sconosciute: questo file non rimuove tale protezione.
